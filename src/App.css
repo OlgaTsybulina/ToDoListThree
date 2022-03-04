@@ -1,0 +1,73 @@
+body{
+  background-image: url(sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-size: 50px;
+  font-family: 'IBM Plex Serif', serif;
+  color: #fb2dfd;
+}
+.crossed{
+  text-decoration: line-through 2px red;
+  color: #fb2dfd;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 25px;
+}
+ul, li{
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  font-family: 'IBM Plex Serif', serif;
+  color: #7c067e;
+  font-size: 30px;
+}
+.add{
+  margin-top: 15px;
+  list-style-type: none;
+  border: none;
+  background: #FFE3E3;
+  height: 40px;
+  width: 20%;
+  text-align: center;
+  font-size: 25px;
+  color: #fb2dfd;
+  font-family: 'IBM Plex Serif', serif;
+}
+.delete{
+  margin-bottom: 10px;
+  list-style-type: none;
+  border: none;
+  background: #FFE3E3;
+  height: 40px;
+  width: 20%;
+  text-align: center;
+  font-size: 25px;
+  color: #fb2dfd;
+  font-family: 'IBM Plex Serif', serif;
+}
+input{
+  border: 2px solid #93B5C6;
+  width: 50%;
+  background-color: #FFE3E3;
+  color: #fb2dfd;
+  font-size: 20px;
+  font-family: 'IBM Plex Serif', serif;
+}
+@media all and (max-width: 800px){
+  h1{
+      font-size: 40px;
+  }
+}
+@media all and (max-width: 500px){
+  h1{
+      font-size: 30px;
+  }
+}
